@@ -1,23 +1,19 @@
-# Navid Taghizadeh — Product Manager Portfolio
+# وب‌سایت شخصی نوید تقی‌زاده
 
-A vanilla HTML/CSS/JavaScript portfolio template designed for GitHub Pages.
+نسخه استاتیک مناسب GitHub Pages.
 
-## Structure
+## انتشار روی GitHub Pages
 
-- `index.html` — main landing page
-- `css/style.css` — visual system and responsive layout
-- `js/script.js` — project switching and small interactions
-- `assets/` — place project screenshots, profile photo, icons, etc. here
+۱. تمام فایل‌های این پوشه را در ریشه یک Repository قرار دهید.
 
-## Publish on GitHub Pages
+۲. از مسیر **Settings → Pages**، گزینه انتشار از Branch اصلی را فعال کنید.
 
-1. Create a GitHub repository, for example `navid-portfolio`.
-2. Upload the files while preserving the folder structure.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**.
-5. Select the `main` branch and `/root`.
-6. Save. GitHub will provide the public Pages URL.
+۳. فایل `index.html` باید در ریشه Repository قرار داشته باشد.
 
-## Next customization
+### فایل‌های اصلی
 
-Replace the placeholder product visuals with real screenshots and add detailed case-study pages. The content in this first version is based on the supplied LinkedIn profile PDF.
+- `index.html` — ساختار و محتوای صفحه
+- `style.css` — طراحی، RTL، ریسپانسیو و انیمیشن‌ها
+- `script.js` — منوی موبایل، Reveal هنگام اسکرول و تبدیل اعداد به فارسی
+- `assets/hero-person-tv.jpg` — برش استفاده‌شده از تصویر موجود؛ تصویر جدیدی تولید نشده است
+- `assets/resume.pdf` — رزومه برای لینک دریافت رزومه
